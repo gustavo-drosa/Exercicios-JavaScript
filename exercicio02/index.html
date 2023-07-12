@@ -1,69 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>exercicio02</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
     <script src="js/exercicio02.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header id="header-titulo">
-        <h1>Exercício 02 - JS</h1>
+      <h1>Exercício 02 - JS</h1>
     </header>
 
     <main>
-        <section class="js-block">
-            <div class="exercicio">
-                <div class="input_info">
-                    <select id="selecionar_poligono">
-                        <option value disabled selected>Poligono</option>
-                        <option value="triangulo">Triangulo</option>
-                        <option value="quadrado">Quadrado</option>
-                        <option value="circunferencia">Circunferência</option>
-                    </select>
+      <section class="js-block">
+        <div class="exercicio">
+          <div class="input_info">
+            <select id="selecionar_poligono">
+              <option value disabled selected>Poligono</option>
+              <option value="triangulo">Triangulo</option>
+              <option value="quadrado">Quadrado</option>
+              <option value="circunferencia">Circunferência</option>
+            </select>
 
-                    <p>Altura:</p>
-                    <input type="number" id="inputAltura">
+            <p>Altura:</p>
+            <input type="number" id="inputAltura" />
 
-                    <p>Comprimento:</p>
-                    <input type="number" id="inputComprimento">
+            <p>Comprimento:</p>
+            <input type="number" id="inputComprimento" />
 
-                    <p>Raio:</p>
-                    <input type="number" id="inputRaio">
+            <p>Raio:</p>
+            <input type="number" id="inputRaio" />
 
-                    <br>
-                    <button onclick="identificarPoligono()">Calcular</button>
+            <br />
+            <button onclick="identificarPoligono()">Calcular</button>
 
-                    <div class="respostas">
-                        <p>Perimetro: </p>
-                        <div id="perimetro_resposta">  </div>
-                        
-                        <p>Área: </p>
-                        <div id="area_resposta"></div>
-                    </div>
+            <div class="respostas">
+              <p>Perimetro:</p>
+              <div id="perimetro_resposta"></div>
 
-                </div>
-
-                
-
-                <div class="info_footer">
-                    <p>Observações:<br>
-                        Para o cálculo do triângulo só é levado em consideração um triângulo equilátero;<br>
-                        Comprimento = Base do poligono; <br>
-                        valores utilizados por cada poligono: <br>
-                        Triangulo: comprimento e altura; <br>
-                        Quadrado: Altura; <br>
-                        Circunferencia: Raio;
-                    </p>
-                </div>
+              <p>Área:</p>
+              <div id="area_resposta"></div>
             </div>
+          </div>
 
-
-        </section>
+          <div class="info_footer">
+            <p>
+              Observações:<br />
+              Para o cálculo do triângulo só é levado em consideração um
+              triângulo equilátero;<br />
+              Comprimento = Base do poligono; <br />
+              valores utilizados por cada poligono: <br />
+              Triangulo: comprimento e altura; <br />
+              Quadrado: Altura; <br />
+              Circunferencia: Raio;
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
-
-
+  </body>
 </html>

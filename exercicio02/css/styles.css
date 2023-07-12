@@ -1,100 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-.js-block{
-    display: flex;
-    justify-content: center;
-
+.js-block {
+  display: flex;
+  justify-content: center;
 }
 
-#header-titulo{
-    color: #000;
+#header-titulo {
+  color: #000;
 }
 
-.exercicio{
-    padding: 5em 5em;
-    border: 2px solid grey;
-    border-radius: 8px;
-    color: #000;
+.exercicio {
+  padding: 5em 5em;
+  border: 2px solid grey;
+  border-radius: 8px;
+  color: #000;
 
-
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.input_info{
-    display: block;
-    align-items: center;
-    justify-content: left;
-    text-align: left;
+.input_info {
+  display: block;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.input_info #selecionar_poligono{
-    margin-bottom: 1.5em;
-    width: 100%;
+.input_info #selecionar_poligono {
+  margin-bottom: 1.5em;
+  width: 100%;
 }
 
-.input_info #selecionar_poligono:hover{
-    cursor: pointer;
+.input_info #selecionar_poligono:hover {
+  cursor: pointer;
 }
 
-.input_info p{
-    text-align: start;
+.input_info p {
+  text-align: start;
 }
 
-.input_info input{
-    margin-bottom: 1.5em;
+.input_info input {
+  margin-bottom: 1.5em;
 }
 
-.input_info button{
-    width: 100%;
-    height: 30px;
+.input_info button {
+  width: 100%;
+  height: 30px;
 }
 
-.input_info button:hover{
-    cursor: pointer;
+.input_info button:hover {
+  cursor: pointer;
 }
 
-.respostas{
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    
-    margin-top: 20px;
-    text-align: start;
-    
-    
+.respostas {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 
+  margin-top: 20px;
+  text-align: start;
 }
 
-.respostas p{
-    display: block;
-
+.respostas p {
+  display: block;
 }
 
-.info_footer{
-    align-items: flex-end;
-    color: grey;
-    font-style: italic;
-    padding-top: 4em;
+.info_footer {
+  align-items: flex-end;
+  color: grey;
+  font-style: italic;
+  padding-top: 4em;
 }
-
-
-
-
-
-

@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>exercicio03</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
     <script src="js/exercicio03.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header id="header-titulo">
-        <h1>Exercício 03 - JS</h1>
+      <h1>Exercício 03 - JS</h1>
     </header>
 
     <main>
-        <section class="js-block">
-            <div class="exercicio">
+      <section class="js-block">
+        <div class="exercicio">
+          <div id="input_info">
+            <p>Camadas da lasanha:</p>
+            <input type="text" id="camadas" />
 
-                <div id="input_info">
-                    <p>Camadas da lasanha:</p>
-                    <input type="text" id="camadas">
+            <p>Tempo atual:</p>
+            <input type="text" id="tempo_atual" />
 
-                    <p>Tempo atual:</p>
-                    <input type="text" id="tempo_atual">
+            <button onclick="calcular()" id="btn-calcular">
+              Calcular tempo
+            </button>
 
-                    <button onclick="calcular()">Calcular tempo</button>
-                </div>
-
-
-                <div id="resposta"></div>
-            </div>
-        </section>
+            <div id="resposta"></div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
-
-
+  </body>
 </html>

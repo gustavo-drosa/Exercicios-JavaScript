@@ -1,39 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    margin-bottom: 2.5em;
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  margin-bottom: 2.5em;
 }
 
-#header-titulo{
-    color: #000;
+#header-titulo {
+  color: #000;
 }
 
-.js-block{
-    display: flex;
-    justify-content: center;
+.js-block {
+  display: flex;
+  justify-content: center;
 }
 
-.exercicio{
-    padding: 10em 15em;
-    border: 2px solid grey;
-    border-radius: 8px;
-    color: #000;
-    background-color: white;
+.exercicio {
+  display: flex;
+  justify-content: center;
+
+  width: 40em;
+  height: 25em;
+
+  padding: 2.5em;
+
+  border: 2px solid grey;
+  border-radius: 8px;
+  color: #000;
+  background-color: white;
+
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.exercicio #input_info{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.exercicio #input_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin-bottom: 20px;
+  outline: none;
+  width: 20em;
+  height: 80%;
 }
 
+.exercicio #camadas,
+#tempo_atual {
+  margin-bottom: 20px;
 
+  width: 200px;
+  height: 20px;
+
+  border: 1.5px solid grey;
+  outline: none;
+}
+
+.exercicio #btn-calcular {
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+
+  border-radius: 4px;
+  background-color: rgb(148, 251, 255);
+  opacity: 0.9;
+  border: 1px solid grey;
+
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.exercicio #btn-calcular:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.exercicio #resposta {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}

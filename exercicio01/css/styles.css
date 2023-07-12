@@ -1,31 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    margin-bottom: 2.5em;
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  margin-bottom: 2.5em;
 }
 
-#header-titulo{
-    color: #000;
+#header-titulo {
+  color: #000;
 }
 
-.js-block{
-    display: flex;
-    justify-content: center;
+.js-block {
+  display: flex;
+  justify-content: center;
 }
 
-.exercicio{
-    padding: 10em 15em;
-    border: 2px solid grey;
-    border-radius: 8px;
-    color: black;
-    background-color: white;
+.exercicio {
+  padding: 10em 15em;
+  border: 2px solid grey;
+  border-radius: 8px;
+  color: black;
+  background-color: white;
 }
-
-
